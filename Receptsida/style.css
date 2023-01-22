@@ -1,0 +1,117 @@
+/* Whole website */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/Receptsida/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Top of the page */
+.header {
+    height: 45vh;
+}
+
+/* Navigation bar */
+.header-line {
+    background-color: #3a3a3a;
+    height: 8vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Text settings */
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 300px;
+    transition: color 0.3s linear;
+}
+
+/* Colour fading for text */
+.nav-item:hover {
+    color: gainsboro;
+}
+
+/* Piece under the header */
+.header-title {
+    color: gainsboro;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Searchbar */
+input {
+    width: 500px;    
+    height: 20px;
+}
+
+/* Recipes */
+.cards {
+    height: 45vh;
+}
+
+.cards-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #1b1b1b;
+    width: 310px;
+    padding-top: 5px;
+}
+
+.container {
+    margin: 0px 150px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-time {
+    text-align: left;
+    color: rgb(255, 172, 48);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.card-title {
+    text-align: left;
+    margin-left: 5px;
+}
+
+/* Footer navigation */
+.footer-nav {
+    height: 10vh;
+    background-color: #3a3a3a;
+    padding: 10px 10px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
